@@ -1,0 +1,6 @@
+﻿<Solution>
+  <Project Path="KinematicSoup.SceneFusion.Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="KinematicSoup.SceneFusion.csproj" />
+  <Project Path="Bezi.Editor.csproj" />
+</Solution>

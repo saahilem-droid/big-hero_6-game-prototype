@@ -1,0 +1,628 @@
+fileFormatVersion: 2
+guid: caa8dc5dfb381ac408057038c34bba7c
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Hiro_Suit_RunningJump
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: EndJump
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: hiro_suit_obj0:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hiro_suit_obj0:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Hiro_Suit_RunningJump(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:Hips
+      parentName: Hiro_Suit_RunningJump(Clone)
+      position: {x: -0.0000615526, y: 0.0077283876, z: 0.00009215796}
+      rotation: {x: 0.09104257, y: 0.055909026, z: 0.082678825, w: 0.9908328}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:Spine
+      parentName: hiro_suit_obj0:Hips
+      position: {x: -0, y: 0.000754, z: -0.000032}
+      rotation: {x: 0.0013094082, y: -0.02767957, z: -0.16387823, w: 0.9860913}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:Spine1
+      parentName: hiro_suit_obj0:Spine
+      position: {x: -0, y: 0.000881, z: 0}
+      rotation: {x: 0.027577585, y: -0.00857033, z: 0.038369767, w: 0.9988463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:Spine2
+      parentName: hiro_suit_obj0:Spine1
+      position: {x: -0, y: 0.001007, z: 0}
+      rotation: {x: 0.028043894, y: -0.0087107485, z: 0.038102057, w: 0.9988423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:Neck
+      parentName: hiro_suit_obj0:Spine2
+      position: {x: -0, y: 0.001133, z: 0}
+      rotation: {x: 0.16152655, y: -0.0024545386, z: 0.0024859388, w: 0.9868622}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:Head
+      parentName: hiro_suit_obj0:Neck
+      position: {x: -0, y: 0.000432, z: -0.000010000001}
+      rotation: {x: 0.0052439715, y: -0.0027261449, z: 0.011083935, w: 0.99992114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:HeadTop_End
+      parentName: hiro_suit_obj0:Head
+      position: {x: -0, y: 0.0026859997, z: -0.00006}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftShoulder
+      parentName: hiro_suit_obj0:Spine2
+      position: {x: -0.000287, y: 0.0009969999, z: -0.000002}
+      rotation: {x: 0.6019746, y: -0.39746606, z: 0.5531655, w: 0.41671976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftArm
+      parentName: hiro_suit_obj0:LeftShoulder
+      position: {x: -0, y: 0.00063, z: 0}
+      rotation: {x: -0.13688509, y: -0.4438748, z: 0.07330312, w: 0.8825329}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftForeArm
+      parentName: hiro_suit_obj0:LeftArm
+      position: {x: -0, y: 0.002077, z: 0}
+      rotation: {x: -0.016017774, y: 0.008367506, z: -0.016874047, w: 0.99969435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftHand
+      parentName: hiro_suit_obj0:LeftForeArm
+      position: {x: -0, y: 0.001848, z: 0}
+      rotation: {x: -0.12513834, y: 0.012517905, z: -0.23771513, w: 0.963159}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftHandThumb1
+      parentName: hiro_suit_obj0:LeftHand
+      position: {x: 0.00047499998, y: 0.00031899998, z: 0}
+      rotation: {x: -0.16300784, y: -0.03435724, z: 0.03185099, w: 0.98551184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftHandThumb2
+      parentName: hiro_suit_obj0:LeftHandThumb1
+      position: {x: 0.000048, y: 0.00045499997, z: 0}
+      rotation: {x: 0.014949987, y: 0.01305396, z: -0.03341948, w: 0.9992444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftHandThumb3
+      parentName: hiro_suit_obj0:LeftHandThumb2
+      position: {x: -0.000013, y: 0.00048999995, z: 0}
+      rotation: {x: -0.038117338, y: 0.0049923733, z: -0.024601683, w: 0.998958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftHandThumb4
+      parentName: hiro_suit_obj0:LeftHandThumb3
+      position: {x: -0.000035, y: 0.00036499999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftHandIndex1
+      parentName: hiro_suit_obj0:LeftHand
+      position: {x: -0, y: 0.000872, z: 0.000006}
+      rotation: {x: 0.066925496, y: 0.050208632, z: 0.22877377, w: 0.9698776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftHandIndex2
+      parentName: hiro_suit_obj0:LeftHandIndex1
+      position: {x: 0.000039, y: 0.00096699997, z: 0}
+      rotation: {x: 0.0075070225, y: 0.14888029, z: -0.20996815, w: 0.9662773}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftHandIndex3
+      parentName: hiro_suit_obj0:LeftHandIndex2
+      position: {x: -0.000038, y: 0.000094999996, z: 0}
+      rotation: {x: 0.0645142, y: -0.13615863, z: 0.18192272, w: 0.971701}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftHandIndex4
+      parentName: hiro_suit_obj0:LeftHandIndex3
+      position: {x: -0.000001, y: 0.000473, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightShoulder
+      parentName: hiro_suit_obj0:Spine2
+      position: {x: 0.000287, y: 0.0009979999, z: -0.000008999999}
+      rotation: {x: -0.55190724, y: -0.4384114, z: 0.5918379, w: -0.39105228}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightArm
+      parentName: hiro_suit_obj0:RightShoulder
+      position: {x: -0, y: 0.00063, z: 0}
+      rotation: {x: -0.1473354, y: -0.16667226, z: 0.032740254, w: 0.97439253}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightForeArm
+      parentName: hiro_suit_obj0:RightArm
+      position: {x: -0, y: 0.002076, z: 0}
+      rotation: {x: -0.009624463, y: -0.007950467, z: 0.006389029, w: 0.9999017}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightHand
+      parentName: hiro_suit_obj0:RightForeArm
+      position: {x: -0, y: 0.001847, z: 0}
+      rotation: {x: 0.038345125, y: 0.083225325, z: 0.07264443, w: 0.99313945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightHandThumb1
+      parentName: hiro_suit_obj0:RightHand
+      position: {x: -0.00044499998, y: 0.000337, z: 0}
+      rotation: {x: -0.0095924195, y: -0.18716827, z: 0.24138127, w: 0.9521613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightHandThumb2
+      parentName: hiro_suit_obj0:RightHandThumb1
+      position: {x: -0.000039, y: 0.00044499998, z: 0}
+      rotation: {x: 0.013381029, y: -0.028500466, z: 0.0069877147, w: 0.9994798}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightHandThumb3
+      parentName: hiro_suit_obj0:RightHandThumb2
+      position: {x: -0.0000069999996, y: 0.000507, z: 0}
+      rotation: {x: -0.031381097, y: 0.006887344, z: 0.047496077, w: 0.9983546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightHandThumb4
+      parentName: hiro_suit_obj0:RightHandThumb3
+      position: {x: 0.000046999998, y: 0.000383, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightHandIndex1
+      parentName: hiro_suit_obj0:RightHand
+      position: {x: -0, y: 0.000862, z: 0.000023}
+      rotation: {x: -0.004307577, y: 0.001973982, z: -0.04245922, w: 0.999087}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightHandIndex2
+      parentName: hiro_suit_obj0:RightHandIndex1
+      position: {x: -0.000028999999, y: 0.00086499995, z: 0}
+      rotation: {x: 0.035908952, y: -0.009781295, z: 0.08415481, w: 0.99575746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightHandIndex3
+      parentName: hiro_suit_obj0:RightHandIndex2
+      position: {x: 0.000025, y: 0.000217, z: 0}
+      rotation: {x: 0.03960184, y: 0.0064155697, z: -0.041465685, w: 0.9983342}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightHandIndex4
+      parentName: hiro_suit_obj0:RightHandIndex3
+      position: {x: 0.000004, y: 0.000416, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftUpLeg
+      parentName: hiro_suit_obj0:Hips
+      position: {x: -0.00068099995, y: -0.00041900002, z: -0.000020000001}
+      rotation: {x: 0.01697938, y: 0.08203706, z: 0.9929526, w: 0.08382632}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftLeg
+      parentName: hiro_suit_obj0:LeftUpLeg
+      position: {x: -0, y: 0.0032559999, z: 0}
+      rotation: {x: 0.29051733, y: -0.034724142, z: 0.03285266, w: -0.955675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftFoot
+      parentName: hiro_suit_obj0:LeftLeg
+      position: {x: -0, y: 0.003124, z: 0}
+      rotation: {x: -0.028004628, y: 0.8315965, z: 0.5416681, w: 0.11940986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftToeBase
+      parentName: hiro_suit_obj0:LeftFoot
+      position: {x: -0, y: 0.001536, z: 0}
+      rotation: {x: 0.1962874, y: 0.069263995, z: -0.010410239, w: 0.9780416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:LeftToe_End
+      parentName: hiro_suit_obj0:LeftToeBase
+      position: {x: -0, y: 0.00063799997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightUpLeg
+      parentName: hiro_suit_obj0:Hips
+      position: {x: 0.00068099995, y: -0.00041900002, z: -0.000025}
+      rotation: {x: 0.07019361, y: 0.1004418, z: 0.9918644, w: 0.034487408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightLeg
+      parentName: hiro_suit_obj0:RightUpLeg
+      position: {x: -0, y: 0.0032559999, z: 0}
+      rotation: {x: -0.34279662, y: -0.064476945, z: -0.015267711, w: 0.93707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightFoot
+      parentName: hiro_suit_obj0:RightLeg
+      position: {x: -0, y: 0.003124, z: 0}
+      rotation: {x: 0.5321481, y: 0.15787204, z: 0.022636488, w: 0.83149403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightToeBase
+      parentName: hiro_suit_obj0:RightFoot
+      position: {x: -0, y: 0.001527, z: 0}
+      rotation: {x: 0.5613715, y: -0.07741472, z: 0.05898723, w: 0.82182086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hiro_suit_obj0:RightToe_End
+      parentName: hiro_suit_obj0:RightToeBase
+      position: {x: -0, y: 0.000635, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

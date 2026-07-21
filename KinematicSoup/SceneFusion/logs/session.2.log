@@ -1,0 +1,607 @@
+2026-02-03 10:08:13.0358 [ERROR] Unable to find field m_InstanceID
+2026-02-03 10:08:13.0413 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.SceneFusion.OnConnect (KS.SceneFusion2.Client.sfSession session, System.String errorMessage) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:340)
+KS.SceneFusion2.Client.sfBaseService.InvokeOnConnect () (at <0aae249e516846d282764b7046865ce8>:0)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfBaseService, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfBaseService, String, Exception)
+KS.SceneFusion2.Client.sfBaseService:InvokeOnConnect()
+KS.SceneFusion2.Client.sfSession:HandleInitialize(ksMultiType[])
+KS.SceneFusion2.Client.RPCManager:ProcessInRPCs()
+KS.SceneFusion2.Client.sfSession:ProcessRPCs(Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:08:13.0418 [ERROR] Error handling OnConnect event.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.SceneFusion.OnConnect (KS.SceneFusion2.Client.sfSession session, System.String errorMessage) [0x000bc] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\SceneFusion.cs:340 
+  at KS.SceneFusion2.Client.sfBaseService.InvokeOnConnect () [0x0000f] in <0aae249e516846d282764b7046865ce8>:0 
+2026-02-03 10:08:13.0585 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfMaterialAdaptor.Start () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfMaterialAdaptor.cs:59)
+KS.SceneFusion2.Unity.Editor.sfConfigTranslator.OnSessionConnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfConfigTranslator.cs:37)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:126)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Start(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:130)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:439)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:08:13.0585 [ERROR] Error calling sfConfigTranslator.OnSessionConnect.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.sfMaterialAdaptor.Start () [0x0000c] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfMaterialAdaptor.cs:59 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at KS.SceneFusion2.Unity.Editor.sfConfigTranslator.OnSessionConnect () [0x00080] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\Translators\sfConfigTranslator.cs:37 
+  at KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) [0x00142] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfObjectEventDispatcher.cs:126 
+2026-02-03 10:08:13.0635 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetTranslator.OnSessionConnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetTranslator.cs:41)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:126)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Start(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:130)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:439)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:08:13.0635 [ERROR] Error calling sfAssetTranslator.OnSessionConnect.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.sfAssetTranslator.OnSessionConnect () [0x00000] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\Translators\sfAssetTranslator.cs:41 
+  at KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) [0x00142] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfObjectEventDispatcher.cs:126 
+2026-02-03 10:08:13.0635 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetPathTranslator.OnSessionConnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetPathTranslator.cs:37)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:126)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Start(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:130)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:439)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:08:13.0635 [ERROR] Error calling sfAssetPathTranslator.OnSessionConnect.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.sfAssetPathTranslator.OnSessionConnect () [0x00016] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\Translators\sfAssetPathTranslator.cs:37 
+  at KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) [0x00142] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfObjectEventDispatcher.cs:126 
+2026-02-03 10:08:13.2760 [WARNING] Cannot set SyncPrefabs while in a session.
+2026-02-03 10:08:13.2770 [WARNING] Cannot set SyncMaterials while in a session.
+2026-02-03 10:08:13.2775 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfMaterialAdaptor.Start () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfMaterialAdaptor.cs:59)
+KS.SceneFusion2.Unity.Editor.sfConfigTranslator.OnCreate (KS.SceneFusion2.Client.sfObject obj, System.Int32 childIndex) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfConfigTranslator.cs:66)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.OnCreate (KS.SceneFusion2.Client.sfObject obj, System.Int32 childIndex) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:299)
+KS.SceneFusion2.Unity.Editor.SceneFusion.Update () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:443)
+UnityEditor.EditorApplication.Internal_CallUpdateFunctions () (at <07f4737e5133458982cbf3761bb87dfd>:0)
+
+2026-02-03 10:08:13.4122 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.TryCreateSFObject (UnityEngine.Object uobj, KS.SceneFusion2.Client.sfObject& obj) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:202)
+KS.SceneFusion2.Unity.Editor.sfPropertyUtils.FromReference (UnityEngine.Object uobj, UnityEditor.SerializedProperty sprop) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyUtils.cs:97)
+KS.SceneFusion2.Unity.Editor.sfPropertyManager.GetObject (UnityEditor.SerializedProperty sprop) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyManager.cs:1412)
+KS.SceneFusion2.Unity.Editor.sfPropertyManager.GetValue (UnityEditor.SerializedProperty sprop) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyManager.cs:446)
+KS.SceneFusion2.Unity.Editor.sfPropertyManager.CreateProperties (UnityEngine.Object uobj, KS.SceneFusion2.sfDictionaryProperty dict) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyManager.cs:689)
+KS.SceneFusion2.Unity.Editor.sfBaseUObjectTranslator.CreateObject (UnityEngine.Object uobj, System.String type) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfBaseUObjectTranslator.cs:208)
+KS.SceneFusion2.Unity.Editor.sfLightingTranslator+<>c__DisplayClass2_0.<CreateLightingObjects>b__0 () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfLightingTranslator.cs:47)
+KS.SceneFusion.sfUnityUtils.WithActiveScene (UnityEngine.SceneManagement.Scene scene, KS.SceneFusion.sfUnityUtils+WithActiveSceneCallback callback) (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLightingTranslator.CreateLightingObjects (UnityEngine.SceneManagement.Scene scene, KS.SceneFusion2.Client.sfObject sceneObj) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfLightingTranslator.cs:44)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator.UploadScene (UnityEngine.SceneManagement.Scene scene) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:680)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator.UploadNewScenes () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:447)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator.Update (System.Single deltaTime) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:321)
+KS.SceneFusion2.Unity.Editor.sfUnityEventDispatcher.InvokeOnUpdate (System.Single deltaTime) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfUnityEventDispatcher.cs:357)
+KS.SceneFusion2.Unity.Editor.SceneFusion.Update () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:454)
+UnityEditor.EditorApplication.Internal_CallUpdateFunctions () (at <07f4737e5133458982cbf3761bb87dfd>:0)
+
+2026-02-03 10:08:56.6927 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetTranslator.OnSessionDisconnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetTranslator.cs:52)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Stop (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:166)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Stop(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:170)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Stop() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:408)
+KS.SceneFusion2.Unity.Editor.SceneFusion:OnDisconnect(sfSession, String) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:383)
+KS.SceneFusion2.Client.sfBaseService:HandleDisconnect(ConnectStatus)
+KS.SF.Reactor.Client.ksBaseRoom`2:HandleConnectionEvents()
+KS.SF.Reactor.Client.ksBaseRoom`2:Update(Single, Single)
+KS.SF.Reactor.Client.ksService:Update(Single, Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:08:56.6927 [ERROR] Error calling sfAssetTranslator.OnSessionDisconnect.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.sfAssetTranslator.OnSessionDisconnect () [0x00000] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\Translators\sfAssetTranslator.cs:52 
+  at KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Stop (KS.SceneFusion2.Client.sfSession session) [0x00142] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfObjectEventDispatcher.cs:166 
+2026-02-03 10:08:56.6991 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetPathTranslator.OnSessionDisconnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetPathTranslator.cs:50)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Stop (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:166)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Stop(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:170)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Stop() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:408)
+KS.SceneFusion2.Unity.Editor.SceneFusion:OnDisconnect(sfSession, String) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:383)
+KS.SceneFusion2.Client.sfBaseService:HandleDisconnect(ConnectStatus)
+KS.SF.Reactor.Client.ksBaseRoom`2:HandleConnectionEvents()
+KS.SF.Reactor.Client.ksBaseRoom`2:Update(Single, Single)
+KS.SF.Reactor.Client.ksService:Update(Single, Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:08:56.6991 [ERROR] Error calling sfAssetPathTranslator.OnSessionDisconnect.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.sfAssetPathTranslator.OnSessionDisconnect () [0x0001c] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\Translators\sfAssetPathTranslator.cs:50 
+  at KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Stop (KS.SceneFusion2.Client.sfSession session) [0x00142] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfObjectEventDispatcher.cs:166 
+2026-02-03 10:08:56.7090 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLockManager..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLockManager.cs:43)
+KS.SceneFusion2.Unity.Editor.sfLockManager..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLockManager.cs:38)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLockManager' threw an exception.
+KS.SceneFusion2.Unity.Editor.SceneFusion.Stop () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:415)
+KS.SceneFusion2.Unity.Editor.SceneFusion.OnDisconnect (KS.SceneFusion2.Client.sfSession session, System.String errorMessage) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:383)
+KS.SceneFusion2.Client.sfBaseService.HandleDisconnect (KS.SF.Reactor.Client.ksBaseRoom+ConnectStatus status) (at <0aae249e516846d282764b7046865ce8>:0)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfBaseService, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfBaseService, String, Exception)
+KS.SceneFusion2.Client.sfBaseService:HandleDisconnect(ConnectStatus)
+KS.SF.Reactor.Client.ksBaseRoom`2:HandleConnectionEvents()
+KS.SF.Reactor.Client.ksBaseRoom`2:Update(Single, Single)
+KS.SF.Reactor.Client.ksService:Update(Single, Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:08:56.7090 [ERROR] Error handling disconnect event: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLockManager' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.SceneFusion.Stop () [0x000d3] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\SceneFusion.cs:415 
+  at KS.SceneFusion2.Unity.Editor.SceneFusion.OnDisconnect (KS.SceneFusion2.Client.sfSession session, System.String errorMessage) [0x00015] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\SceneFusion.cs:383 
+  at (wrapper delegate-invoke) <Module>.invoke_void_sfSession_string(KS.SceneFusion2.Client.sfSession,string)
+  at KS.SceneFusion2.Client.sfBaseService.HandleDisconnect (KS.SF.Reactor.Client.ksBaseRoom+ConnectStatus status) [0x0003a] in <0aae249e516846d282764b7046865ce8>:0 
+2026-02-03 10:09:04.1892 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.SceneFusion.OnConnect (KS.SceneFusion2.Client.sfSession session, System.String errorMessage) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:340)
+KS.SceneFusion2.Client.sfBaseService.InvokeOnConnect () (at <0aae249e516846d282764b7046865ce8>:0)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfBaseService, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfBaseService, String, Exception)
+KS.SceneFusion2.Client.sfBaseService:InvokeOnConnect()
+KS.SceneFusion2.Client.sfSession:HandleInitialize(ksMultiType[])
+KS.SceneFusion2.Client.RPCManager:ProcessInRPCs()
+KS.SceneFusion2.Client.sfSession:ProcessRPCs(Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:09:04.1892 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.SceneFusion.OnConnect (KS.SceneFusion2.Client.sfSession session, System.String errorMessage) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:340)
+KS.SceneFusion2.Client.sfBaseService.InvokeOnConnect () (at <0aae249e516846d282764b7046865ce8>:0)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfBaseService, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfBaseService, String, Exception)
+KS.SceneFusion2.Client.sfBaseService:InvokeOnConnect()
+KS.SceneFusion2.Client.sfSession:HandleInitialize(ksMultiType[])
+KS.SceneFusion2.Client.RPCManager:ProcessInRPCs()
+KS.SceneFusion2.Client.sfSession:ProcessRPCs(Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:09:04.1892 [ERROR] Error handling OnConnect event.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.SceneFusion.OnConnect (KS.SceneFusion2.Client.sfSession session, System.String errorMessage) [0x000bc] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\SceneFusion.cs:340 
+  at KS.SceneFusion2.Client.sfBaseService.InvokeOnConnect () [0x0000f] in <0aae249e516846d282764b7046865ce8>:0 
+2026-02-03 10:09:04.1957 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfMaterialAdaptor.Start () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfMaterialAdaptor.cs:59)
+KS.SceneFusion2.Unity.Editor.sfConfigTranslator.OnSessionConnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfConfigTranslator.cs:37)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:126)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Start(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:130)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:439)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:09:04.1957 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfMaterialAdaptor.Start () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfMaterialAdaptor.cs:59)
+KS.SceneFusion2.Unity.Editor.sfConfigTranslator.OnSessionConnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfConfigTranslator.cs:37)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:126)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Start(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:130)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:439)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:09:04.1957 [ERROR] Error calling sfConfigTranslator.OnSessionConnect.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.sfMaterialAdaptor.Start () [0x0000c] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfMaterialAdaptor.cs:59 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at KS.SceneFusion2.Unity.Editor.sfConfigTranslator.OnSessionConnect () [0x00080] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\Translators\sfConfigTranslator.cs:37 
+  at KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) [0x00142] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfObjectEventDispatcher.cs:126 
+2026-02-03 10:09:04.1967 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetTranslator.OnSessionConnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetTranslator.cs:41)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:126)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Start(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:130)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:439)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:09:04.1967 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetTranslator.OnSessionConnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetTranslator.cs:41)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:126)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Start(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:130)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:439)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:09:04.1967 [ERROR] Error calling sfAssetTranslator.OnSessionConnect.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.sfAssetTranslator.OnSessionConnect () [0x00000] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\Translators\sfAssetTranslator.cs:41 
+  at KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) [0x00142] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfObjectEventDispatcher.cs:126 
+2026-02-03 10:09:04.1967 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetPathTranslator.OnSessionConnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetPathTranslator.cs:37)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:126)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Start(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:130)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:439)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:09:04.1967 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetPathTranslator.OnSessionConnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetPathTranslator.cs:37)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:126)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Start(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:130)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:439)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:09:04.1967 [ERROR] Error calling sfAssetPathTranslator.OnSessionConnect.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.sfAssetPathTranslator.OnSessionConnect () [0x00016] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\Translators\sfAssetPathTranslator.cs:37 
+  at KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Start (KS.SceneFusion2.Client.sfSession session) [0x00142] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfObjectEventDispatcher.cs:126 
+2026-02-03 10:09:04.1967 [WARNING] Cannot set SyncPrefabs while in a session.
+2026-02-03 10:09:04.1967 [WARNING] Cannot set SyncMaterials while in a session.
+2026-02-03 10:09:04.1967 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfMaterialAdaptor.Start () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfMaterialAdaptor.cs:59)
+KS.SceneFusion2.Unity.Editor.sfConfigTranslator.OnCreate (KS.SceneFusion2.Client.sfObject obj, System.Int32 childIndex) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfConfigTranslator.cs:66)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.OnCreate (KS.SceneFusion2.Client.sfObject obj, System.Int32 childIndex) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:299)
+KS.SceneFusion2.Unity.Editor.SceneFusion.Update () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:443)
+UnityEditor.EditorApplication.Internal_CallUpdateFunctions () (at <07f4737e5133458982cbf3761bb87dfd>:0)
+
+2026-02-03 10:09:04.1967 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfMaterialAdaptor.Start () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfMaterialAdaptor.cs:59)
+KS.SceneFusion2.Unity.Editor.sfConfigTranslator.OnCreate (KS.SceneFusion2.Client.sfObject obj, System.Int32 childIndex) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfConfigTranslator.cs:66)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.OnCreate (KS.SceneFusion2.Client.sfObject obj, System.Int32 childIndex) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:299)
+KS.SceneFusion2.Unity.Editor.SceneFusion.Update () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:443)
+UnityEditor.EditorApplication.Internal_CallUpdateFunctions () (at <07f4737e5133458982cbf3761bb87dfd>:0)
+
+2026-02-03 10:09:04.2923 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.TryCreateSFObject (UnityEngine.Object uobj, KS.SceneFusion2.Client.sfObject& obj) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:202)
+KS.SceneFusion2.Unity.Editor.sfPropertyUtils.FromReference (UnityEngine.Object uobj, UnityEditor.SerializedProperty sprop) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyUtils.cs:97)
+KS.SceneFusion2.Unity.Editor.sfPropertyManager.GetObject (UnityEditor.SerializedProperty sprop) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyManager.cs:1412)
+KS.SceneFusion2.Unity.Editor.sfPropertyManager.GetValue (UnityEditor.SerializedProperty sprop) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyManager.cs:446)
+KS.SceneFusion2.Unity.Editor.sfPropertyManager.CreateProperties (UnityEngine.Object uobj, KS.SceneFusion2.sfDictionaryProperty dict) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyManager.cs:689)
+KS.SceneFusion2.Unity.Editor.sfBaseUObjectTranslator.CreateObject (UnityEngine.Object uobj, System.String type) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfBaseUObjectTranslator.cs:208)
+KS.SceneFusion2.Unity.Editor.sfLightingTranslator+<>c__DisplayClass2_0.<CreateLightingObjects>b__0 () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfLightingTranslator.cs:47)
+KS.SceneFusion.sfUnityUtils.WithActiveScene (UnityEngine.SceneManagement.Scene scene, KS.SceneFusion.sfUnityUtils+WithActiveSceneCallback callback) (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLightingTranslator.CreateLightingObjects (UnityEngine.SceneManagement.Scene scene, KS.SceneFusion2.Client.sfObject sceneObj) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfLightingTranslator.cs:44)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator.UploadScene (UnityEngine.SceneManagement.Scene scene) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:680)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator.UploadNewScenes () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:447)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator.Update (System.Single deltaTime) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:321)
+KS.SceneFusion2.Unity.Editor.sfUnityEventDispatcher.InvokeOnUpdate (System.Single deltaTime) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfUnityEventDispatcher.cs:357)
+KS.SceneFusion2.Unity.Editor.SceneFusion.Update () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:454)
+UnityEditor.EditorApplication.Internal_CallUpdateFunctions () (at <07f4737e5133458982cbf3761bb87dfd>:0)
+
+2026-02-03 10:09:04.2923 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.TryCreateSFObject (UnityEngine.Object uobj, KS.SceneFusion2.Client.sfObject& obj) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:202)
+KS.SceneFusion2.Unity.Editor.sfPropertyUtils.FromReference (UnityEngine.Object uobj, UnityEditor.SerializedProperty sprop) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyUtils.cs:97)
+KS.SceneFusion2.Unity.Editor.sfPropertyManager.GetObject (UnityEditor.SerializedProperty sprop) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyManager.cs:1412)
+KS.SceneFusion2.Unity.Editor.sfPropertyManager.GetValue (UnityEditor.SerializedProperty sprop) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyManager.cs:446)
+KS.SceneFusion2.Unity.Editor.sfPropertyManager.CreateProperties (UnityEngine.Object uobj, KS.SceneFusion2.sfDictionaryProperty dict) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPropertyManager.cs:689)
+KS.SceneFusion2.Unity.Editor.sfBaseUObjectTranslator.CreateObject (UnityEngine.Object uobj, System.String type) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfBaseUObjectTranslator.cs:208)
+KS.SceneFusion2.Unity.Editor.sfLightingTranslator+<>c__DisplayClass2_0.<CreateLightingObjects>b__0 () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfLightingTranslator.cs:47)
+KS.SceneFusion.sfUnityUtils.WithActiveScene (UnityEngine.SceneManagement.Scene scene, KS.SceneFusion.sfUnityUtils+WithActiveSceneCallback callback) (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLightingTranslator.CreateLightingObjects (UnityEngine.SceneManagement.Scene scene, KS.SceneFusion2.Client.sfObject sceneObj) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfLightingTranslator.cs:44)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator.UploadScene (UnityEngine.SceneManagement.Scene scene) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:680)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator.UploadNewScenes () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:447)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator.Update (System.Single deltaTime) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:321)
+KS.SceneFusion2.Unity.Editor.sfUnityEventDispatcher.InvokeOnUpdate (System.Single deltaTime) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfUnityEventDispatcher.cs:357)
+KS.SceneFusion2.Unity.Editor.SceneFusion.Update () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:454)
+UnityEditor.EditorApplication.Internal_CallUpdateFunctions () (at <07f4737e5133458982cbf3761bb87dfd>:0)
+
+2026-02-03 10:15:09.4075 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetTranslator.OnSessionDisconnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetTranslator.cs:52)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Stop (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:166)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Stop(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:170)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Stop() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:408)
+KS.SceneFusion2.Unity.Editor.SceneFusion:OnDisconnect(sfSession, String) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:383)
+KS.SceneFusion2.Client.sfBaseService:HandleDisconnect(ConnectStatus)
+KS.SF.Reactor.Client.ksBaseRoom`2:HandleConnectionEvents()
+KS.SF.Reactor.Client.ksBaseRoom`2:Update(Single, Single)
+KS.SF.Reactor.Client.ksService:Update(Single, Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:15:09.4075 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetTranslator.OnSessionDisconnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetTranslator.cs:52)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Stop (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:166)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Stop(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:170)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Stop() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:408)
+KS.SceneFusion2.Unity.Editor.SceneFusion:OnDisconnect(sfSession, String) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:383)
+KS.SceneFusion2.Client.sfBaseService:HandleDisconnect(ConnectStatus)
+KS.SF.Reactor.Client.ksBaseRoom`2:HandleConnectionEvents()
+KS.SF.Reactor.Client.ksBaseRoom`2:Update(Single, Single)
+KS.SF.Reactor.Client.ksService:Update(Single, Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:15:09.4075 [ERROR] Error calling sfAssetTranslator.OnSessionDisconnect.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.sfAssetTranslator.OnSessionDisconnect () [0x00000] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\Translators\sfAssetTranslator.cs:52 
+  at KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Stop (KS.SceneFusion2.Client.sfSession session) [0x00142] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfObjectEventDispatcher.cs:166 
+2026-02-03 10:15:09.4119 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetPathTranslator.OnSessionDisconnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetPathTranslator.cs:50)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Stop (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:166)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Stop(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:170)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Stop() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:408)
+KS.SceneFusion2.Unity.Editor.SceneFusion:OnDisconnect(sfSession, String) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:383)
+KS.SceneFusion2.Client.sfBaseService:HandleDisconnect(ConnectStatus)
+KS.SF.Reactor.Client.ksBaseRoom`2:HandleConnectionEvents()
+KS.SF.Reactor.Client.ksBaseRoom`2:Update(Single, Single)
+KS.SF.Reactor.Client.ksService:Update(Single, Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:15:09.4119 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLoader.CacheStandInFromBuiltIn[T] (System.String assetName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:1026)
+KS.SceneFusion2.Unity.Editor.sfLoader.LoadStandInTemplates () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:932)
+KS.SceneFusion2.Unity.Editor.sfLoader..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:87)
+KS.SceneFusion2.Unity.Editor.sfLoader..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLoader.cs:28)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+KS.SceneFusion2.Unity.Editor.sfAssetPathTranslator.OnSessionDisconnect () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfAssetPathTranslator.cs:50)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Stop (KS.SceneFusion2.Client.sfSession session) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:166)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfObjectEventDispatcher, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfObjectEventDispatcher, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:Stop(sfSession) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:170)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Stop() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:408)
+KS.SceneFusion2.Unity.Editor.SceneFusion:OnDisconnect(sfSession, String) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:383)
+KS.SceneFusion2.Client.sfBaseService:HandleDisconnect(ConnectStatus)
+KS.SF.Reactor.Client.ksBaseRoom`2:HandleConnectionEvents()
+KS.SF.Reactor.Client.ksBaseRoom`2:Update(Single, Single)
+KS.SF.Reactor.Client.ksService:Update(Single, Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:15:09.4119 [ERROR] Error calling sfAssetPathTranslator.OnSessionDisconnect.: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLoader' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.sfAssetPathTranslator.OnSessionDisconnect () [0x0001c] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\Translators\sfAssetPathTranslator.cs:50 
+  at KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher.Stop (KS.SceneFusion2.Client.sfSession session) [0x00142] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfObjectEventDispatcher.cs:166 
+2026-02-03 10:15:09.4129 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLockManager..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLockManager.cs:43)
+KS.SceneFusion2.Unity.Editor.sfLockManager..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLockManager.cs:38)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLockManager' threw an exception.
+KS.SceneFusion2.Unity.Editor.SceneFusion.Stop () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:415)
+KS.SceneFusion2.Unity.Editor.SceneFusion.OnDisconnect (KS.SceneFusion2.Client.sfSession session, System.String errorMessage) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:383)
+KS.SceneFusion2.Client.sfBaseService.HandleDisconnect (KS.SF.Reactor.Client.ksBaseRoom+ConnectStatus status) (at <0aae249e516846d282764b7046865ce8>:0)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfBaseService, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfBaseService, String, Exception)
+KS.SceneFusion2.Client.sfBaseService:HandleDisconnect(ConnectStatus)
+KS.SF.Reactor.Client.ksBaseRoom`2:HandleConnectionEvents()
+KS.SF.Reactor.Client.ksBaseRoom`2:Update(Single, Single)
+KS.SF.Reactor.Client.ksService:Update(Single, Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:15:09.4129 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfBuiltInAssetsLoader.LoadBuiltInAssets[T] () (at <0aae249e516846d282764b7046865ce8>:0)
+KS.SceneFusion2.Unity.Editor.sfLockManager..ctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLockManager.cs:43)
+KS.SceneFusion2.Unity.Editor.sfLockManager..cctor () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfLockManager.cs:38)
+Rethrow as TypeInitializationException: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLockManager' threw an exception.
+KS.SceneFusion2.Unity.Editor.SceneFusion.Stop () (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:415)
+KS.SceneFusion2.Unity.Editor.SceneFusion.OnDisconnect (KS.SceneFusion2.Client.sfSession session, System.String errorMessage) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:383)
+KS.SceneFusion2.Client.sfBaseService.HandleDisconnect (KS.SF.Reactor.Client.ksBaseRoom+ConnectStatus status) (at <0aae249e516846d282764b7046865ce8>:0)
+UnityEngine.Debug:LogException(Exception)
+KS.SF.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.SF.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Log(sfBaseService, String, Exception, Level, Object)
+KS.SF.Reactor.ksLog:Error(sfBaseService, String, Exception)
+KS.SceneFusion2.Client.sfBaseService:HandleDisconnect(ConnectStatus)
+KS.SF.Reactor.Client.ksBaseRoom`2:HandleConnectionEvents()
+KS.SF.Reactor.Client.ksBaseRoom`2:Update(Single, Single)
+KS.SF.Reactor.Client.ksService:Update(Single, Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:453)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2026-02-03 10:15:09.4129 [ERROR] Error handling disconnect event: The type initializer for 'KS.SceneFusion2.Unity.Editor.sfLockManager' threw an exception.
+  at KS.SceneFusion2.Unity.Editor.SceneFusion.Stop () [0x000d3] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\SceneFusion.cs:415 
+  at KS.SceneFusion2.Unity.Editor.SceneFusion.OnDisconnect (KS.SceneFusion2.Client.sfSession session, System.String errorMessage) [0x00015] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\SceneFusion.cs:383 
+  at (wrapper delegate-invoke) <Module>.invoke_void_sfSession_string(KS.SceneFusion2.Client.sfSession,string)
+  at KS.SceneFusion2.Client.sfBaseService.HandleDisconnect (KS.SF.Reactor.Client.ksBaseRoom+ConnectStatus status) [0x0003a] in <0aae249e516846d282764b7046865ce8>:0 

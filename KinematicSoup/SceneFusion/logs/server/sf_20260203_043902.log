@@ -1,0 +1,452 @@
+2026-02-03 10:09:02.2152 [INFO; Root]  KinematicSoup Technologies Inc.
+2026-02-03 10:09:02.2193 [INFO; Root]  Scene Fusion Server 2.0.4asl
+2026-02-03 10:09:02.2447 [DEBUG; Root]  Loading Asset Scripts
+2026-02-03 10:09:02.2455 [DEBUG; Root]  Loading Room Configs
+2026-02-03 10:09:02.2466 [DEBUG; Root]  Loading entity prefabs
+2026-02-03 10:09:02.2466 [DEBUG; Root]  Loading entity instances
+2026-02-03 10:09:02.2469 [DEBUG; Root]  Initializing scripts
+2026-02-03 10:09:02.2537 [INFO; Root]  Loading config.json
+2026-02-03 10:09:02.2538 [INFO; Root]  ProjectId: 1
+2026-02-03 10:09:02.2538 [INFO; Root]  Tier: SF Unity LAN
+2026-02-03 10:09:02.2538 [INFO; Root]  Terrain Editing: True
+2026-02-03 10:09:02.2538 [INFO; Root]  Object Limit: Unlimited
+2026-02-03 10:09:02.2860 [DEBUG; Root]  Room setup complete
+2026-02-03 10:09:02.2864 [INFO;  .⁑]  Starting room 0
+2026-02-03 10:09:02.2865 [INFO; Root]  Sending client updates every 6 frames
+2026-02-03 10:09:02.2866 [INFO; Root]  Setting player limit to 2
+2026-02-03 10:09:02.2866 [INFO; Root]  Opening TCP port 8000
+2026-02-03 10:09:04.1574 [INFO; Root]  Client(id = 1, address = 127.0.0.1:55027) connected
+2026-02-03 10:09:04.1582 [DEBUG; Root]  Client(id = 1, address = 127.0.0.1:55027) model validated
+2026-02-03 10:09:04.1812 [INFO; Authentication]  Client(id = 1, address = 127.0.0.1) authenticated.
+2026-02-03 10:09:04.1825 [INFO; KS.SceneFusion2.Server.srAuthenticationManager]  Connection [account = Muhammed, address = 127.0.0.1]
+2026-02-03 10:09:04.2644 [DEBUG; KS.SceneFusion2.Server.srObjectManager]  Created 1 object(s).
+Total: 85 B (1), Config: 53 B (1), String Table: 32 B
+2026-02-03 10:09:04.2653 [DEBUG; KS.SceneFusion2.Server.srObjectManager]  Created 1 object(s).
+Total: 168 B (2), String Table: 71 B, Config: 53 B (1), SceneSubscriptions: 44 B (1)
+2026-02-03 10:09:04.2661 [DEBUG; KS.SceneFusion2.Server.srObjectManager]  Created 1 object(s).
+Total: 193 B (3), String Table: 80 B, Config: 53 B (1), SceneSubscriptions: 44 B (1), SceneLock: 16 B (1)
+2026-02-03 10:09:04.2666 [DEBUG; KS.SceneFusion2.Server.srObjectManager]  Created 1 object(s).
+Total: 474 B (4), Avatar: 198 B (1), String Table: 163 B, Config: 53 B (1), SceneSubscriptions: 44 B (1), SceneLock: 16 B (1)
+2026-02-03 10:11:06.5164 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.5215 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.5373 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.5534 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.5695 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.5854 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.6006 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.6180 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.6348 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.6519 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.6693 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.6861 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.7025 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.7196 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.7359 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.7526 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.7683 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.7852 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.8017 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.8188 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.8343 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.8514 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.8687 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.8857 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.9021 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.9183 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.9345 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.9516 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.9693 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:06.9858 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.0025 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.0188 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.0357 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.0521 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.0689 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.0856 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.1026 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.1194 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.1364 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.1538 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.1705 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.1860 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.2035 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.2205 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.2371 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.2538 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.2705 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.2876 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.3040 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.3204 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.3375 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.3541 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.3711 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.3882 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.4057 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.4226 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.4391 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.4556 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.4729 [ERROR; Root]  Exception caught while calling update handlers for update group 0.: A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   at System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, IPEndPoint endPoint)
+   at  .⁉. (Single )
+   at KS.SceneFusion2.Server.srAuthenticationManager.Update()
+   at  .⁑. . (UpdateHandler )
+2026-02-03 10:11:07.4894 [ERROR; Root]  Log rate exceeded. Suppressing messages until the log rate drops below 60 messages per minute.
+2026-02-03 10:15:09.4166 [INFO; Root]  Client(id = 1, address = 127.0.0.1:55027) disconnected: 2-End of file
+2026-02-03 10:15:09.4312 [INFO; KS.SceneFusion2.Server.srAuthenticationManager]  Disconnection [account = Muhammed, address = 127.0.0.1]
+2026-02-03 10:15:09.4344 [DEBUG; KS.SceneFusion2.Server.srObjectManager]  Deleted 2 object(s).
+Total: 232 B (2), String Table: 163 B, Config: 53 B (1), SceneLock: 16 B (1)
+2026-02-03 10:15:09.4351 [INFO; KS.SceneFusion2.Server.srAuthenticationManager]  Shutting down because no users are connected.
+2026-02-03 10:15:09.4633 [INFO;  .⁑]  Stopping room 0
+2026-02-03 10:15:09.4639 [DEBUG; KS.SceneFusion2.Server.srAnalytics]  Sending analytics data...
+2026-02-03 10:15:09.9646 [DEBUG; KS.SceneFusion2.Server.srAnalytics]  Analytics event recorded succesfully.
+2026-02-03 10:15:12.9840 [INFO; Root]  Closing TCP port 8000
